@@ -1,9 +1,9 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;  /* Ensure the full height of the viewport is used */
-    width: 100%;   /* Ensure the full width of the viewport is used */
-    overflow: hidden; /* Hide scrollbars if the content exceeds the viewport */
+    height: 100%;  
+    width: 100%;   
+    overflow: hidden; 
 }
 
 .container {
@@ -16,7 +16,7 @@ body, html {
 }
 
 .center-image {
-    max-width: 300px; /* Adjust as needed */
-    max-height: 300px; /* Adjust as needed */
-    z-index: 10; /* Ensure the image is above the background */
+    max-width: 60%; /* Adjust the size as needed */
+    max-height: 80%; /* Adjust the size as needed */
+    object-fit: contain; /* Keeps the aspect ratio of the image */
 }
